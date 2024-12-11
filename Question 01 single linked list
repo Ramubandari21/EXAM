@@ -80,9 +80,10 @@ class Main{
             for(int j=0;j<n;j++){
                 data=s.nextInt();
                 X.insert2(data);
+                int res=X.Compare();
+        System.out.println(res);
             }
         }
-        int res=X.Compare();
-        System.out.println(res);
+        
     }
 }
